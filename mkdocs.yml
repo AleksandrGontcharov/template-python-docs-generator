@@ -1,0 +1,21 @@
+site_name: My Docs
+theme: readthedocs
+plugins:
+    - search:
+    - mkdocstrings:
+        handlers:
+            python:
+                rendering:
+                    show_root_heading: yes
+                    show_object_full_path: yes
+                    show_category_heading: yes
+                    show_if_no_docstring: yes
+                    show_signature_annotations: yes
+                    heading_level: 1
+                setup_commands:
+                    - import sys
+                    - from unittest.mock import MagicMock as mock
+                    - sys.modules["pandas"] = mock()
+        
+    
+    
