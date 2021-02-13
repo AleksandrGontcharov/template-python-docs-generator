@@ -61,7 +61,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocstrings
       - run: mkdocs gh-deploy --force```
-
-and push the changes to Github, and it should automatically generate the corresponding GitHub Page with URL
+```
+and push the changes to Github, and it should automatically generate the corresponding GitHub Page with this URL 
 
 https://Machine-Learning-Academy-of-Sciences.github.io/template-python-docs-generator/
