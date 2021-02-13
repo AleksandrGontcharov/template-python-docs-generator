@@ -7,7 +7,7 @@ plugins:
             python:
                 rendering:
                     show_root_heading: yes
-                    show_object_full_path: yes
+                    #show_object_full_path: yes
                     show_category_heading: yes
                     show_if_no_docstring: yes
                     show_signature_annotations: yes
