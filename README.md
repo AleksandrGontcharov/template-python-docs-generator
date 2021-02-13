@@ -18,7 +18,7 @@ The automatically generated documentation for this repository is available at:
 
 https://Machine-Learning-Academy-of-Sciences.github.io/template-python-docs-generator/
 
-# How to avoid pip installing everything into the environment
+# How to avoid pip installing everything into the env
 
 Mkdocs scans all of the *.py* files and it uses a Python handler to attempt to import
 all of the modules.
