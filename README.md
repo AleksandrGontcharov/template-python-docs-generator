@@ -1,8 +1,7 @@
-# MLAS Docs Generator
+# template-python-docs-generator
 
 This will allow you to automatically scan all of your .py files and generate documentation for your project from your code's docstrings.
 
-[Documentation for this Repository on GitHub Pages](https://Machine-Learning-Academy-of-Sciences.github.io/template-python-docs-generator/)
 ## How to use
 
 After cloning and cd'ing into this repo, run the following.
@@ -67,6 +66,4 @@ jobs:
       - run: pip install mkdocstrings
       - run: mkdocs gh-deploy --force
 ```
-and push the changes to Github, and it should automatically generate the corresponding GitHub Page with this URL 
-
-https://Machine-Learning-Academy-of-Sciences.github.io/template-python-docs-generator/
+and push the changes to Github, and it should automatically generate the corresponding GitHub Page.
